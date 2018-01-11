@@ -241,6 +241,7 @@ class TextCNNClassifier(object):
 		print(predictions)
 		return predictions
 			
+<<<<<<< HEAD
 		
 					
 		
@@ -262,3 +263,5 @@ class TextCNNClassifier(object):
 			
 		
 		
+=======
+>>>>>>> af065a2217a599ad38cf8af10b1ec45da5b79c89

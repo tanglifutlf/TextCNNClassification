@@ -89,6 +89,7 @@ print('the dev accuracy is :',accuracy)
 
 predictions = text_model.predict(x_dev)
 #print(predictions)					  
+<<<<<<< HEAD
 
 
 
@@ -98,3 +99,5 @@ predictions = text_model.predict(x_dev)
 
 
 
+=======
+>>>>>>> af065a2217a599ad38cf8af10b1ec45da5b79c89

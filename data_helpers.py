@@ -43,6 +43,7 @@ def load_data_and_labels(positive_data_file, negative_data_file):
     negative_labels = [[1, 0] for _ in negative_examples]
     y = np.concatenate([positive_labels, negative_labels], 0)
     return [x_text, y]
+<<<<<<< HEAD
 
 
 def batch_iter(data, batch_size, num_epochs, shuffle=True):
@@ -79,3 +80,5 @@ def get_dir():
 	abs_path  = os.path.abspath(save_path)
 	
 	return abs_path
+=======
+>>>>>>> af065a2217a599ad38cf8af10b1ec45da5b79c89
