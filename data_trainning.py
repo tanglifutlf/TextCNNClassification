@@ -41,7 +41,7 @@ print('The length of x_dev is {}'.format(len(x_dev)))
 num_seqs = max_document_length
 num_classes = 2
 num_filters = 128
-filter_steps = [5,6,7]
+filter_steps = [3,4,5]
 embedding_size = 200
 vocab_size = len(vocab_processor.vocabulary_)
 
@@ -80,7 +80,7 @@ print('this is check calc list:\\\\\n',
 						  
 text_model = TextCNNClassifier(config_nn,config_calc)
 
-#text_model.fit(trains)	
+text_model.fit(trains)	
 
 #text_model.load_model(".\\models\\model-1500")
 #text_model.load_model()
@@ -89,15 +89,4 @@ print('the dev accuracy is :',accuracy)
 
 predictions = text_model.predict(x_dev)
 #print(predictions)					  
-<<<<<<< HEAD
 
-
-
-
-
-
-
-
-
-=======
->>>>>>> af065a2217a599ad38cf8af10b1ec45da5b79c89
